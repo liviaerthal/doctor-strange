@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,500;0,700;1,300;1,400&display=swap');
+
+/* ----------------- RESET ----------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* ----------------- GERAL ----------------- */
+
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #000 0.52%, rgba(0, 0, 0, 0.85) 10.56%, rgba(0, 0, 0, 0) 74.54%), url("images/background.jpg") no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ----------------- HEADER ----------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container{
+    display: flex;
+    gap: 34px;
+}
+
+.link-container a{
+    text-shadow: 2px 2px 2px #00000098;
+    padding: 6px;
+    border-radius: 15px;
+    transition: .7s ease;
+}
+
+.link-container a:hover{
+    background-color: #E62721;
+}
+
+/* ----------------- MAIN ----------------- */
+
+.content-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-container h1{
+    font-size: 8rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.content-container h1 span{
+    font-weight: 200;
+    font-size: 2.25rem;
+    transform: translateY(30px);
+}
+
+.content-container .movie-title{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.938rem;
+    color: #E62721;
+    transform: translateY(-28px);
+}
+
+.content-container .movie-text{
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #fff;
+    width: 600px;
+}
+
+.content-container .movie-button{
+    width: 300px;
+    height: 80px;
+    background: #E62721;
+    text-transform: initial;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    transition: .4s ease;
+}
+
+.content-container .movie-button:hover{
+    background-color: #bb221c;
+}
+
+.social-container{
+    width: 48px;
+}
+
+.social-container ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-container li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: .4s ease;
+}
+
+.social-container li:hover{
+    background-color: #E62721;
+    border-color: #E62721;
+}
+
+.social-container i{
+    font-size: 1.5rem;
+}
+
+
+/* ----------------- FOOTER----------------- */
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+}
