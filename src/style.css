@@ -96,6 +96,7 @@ header{
     font-size: 1.125rem;
     color: #fff;
     width: 600px;
+    margin-top: -20px;
 }
 
 .content-container .movie-button{
